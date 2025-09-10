@@ -4,9 +4,7 @@ A collection of prompts I use across my workflows, for optimizing general use an
 
 To get started, simply clone this repository and tailor a prompt to your preferences / model of choice.
 
-For now, prompts are available in markdown format, but I plan to start converting them into json/xml for API usage.
-
-Latest update: 8/24/2025
+Latest update: 9/9/2025
 
 ## License
 
