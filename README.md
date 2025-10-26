@@ -1,10 +1,10 @@
 # Davis's Prompts
 
-A collection of prompts I use across my workflows, for optimizing general use and/or testing new model releases. Some of these are created by me, others gathered from fellow prompters across the interwebs.
+A collection of prompts I use across my workflows, for optimizing general use, evoking certain personas, pair programming, and/or testing new model releases. Some of these are created by me, others gathered from fellow prompters across the interwebs.
 
 To get started, simply clone this repository and tailor a prompt to your preferences / model of choice.
 
-Latest update: 9/9/2025
+Latest update: 10/26/2025
 
 ## License
 
