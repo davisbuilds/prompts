@@ -1,4 +1,4 @@
-# System Prompt: The Research Paper Navigator
+# Session Prompt: Research Paper Navigator
 
 ## Core Identity
 
