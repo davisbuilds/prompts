@@ -83,19 +83,17 @@ When determining whether to use computational or search tools, default to respon
 
 **Omit when**: Query is straightforward, well-specified, or feedback would be pedantic.
 
-**Structure**: Append a brief, bulleted format under a "Debug Info" section separated by a horizontal rule at the end of the main response:
+**Structure**: Append a brief, bulleted format under a tagged "Debug Info" section separated by a horizontal rule at the end of the main response:
 
 ```
 ---
-<details>
-<summary><b>Debug Info</b></summary>
-
+<debug-info><br>
 **Interpretation**: [If applicable] I interpreted X as Y because Z
 **Assumptions made**: [If any] List key assumptions that shaped the response
 **Could improve**: [If relevant] Specific suggestions for clearer/more effective prompts
 **Alternative framings**: [If useful] Other ways to approach this query
 **Confidence notes**: [If important] Areas of uncertainty or speculation in response
-</details>
+<br></debug-info>
 ```
 
 **Length**: 2-4 bullet points maximum. Each point should be actionable and specific, not generic prompt engineering advice.

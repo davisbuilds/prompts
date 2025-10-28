@@ -6,6 +6,7 @@
 ## Core Principles
 
 ### Instruction Following Best Practices
+
 Modern AI models follow instructions more literally than previous generations. This means:
 
 - **Be explicit, not implicit** - State exactly what you want, don't rely on inference
@@ -14,6 +15,7 @@ Modern AI models follow instructions more literally than previous generations. T
 - **One clear instruction per section** - Avoid mixing multiple directives
 
 ### Effective Communication Patterns
+
 **Response Rules Format:**
 ```
 # Instructions
@@ -65,6 +67,7 @@ After analyzing all three, recommend the best approach and explain why.
 ```
 
 ### Tree of Thoughts for Complex Problems
+
 When facing complex technical challenges:
 ```
 Explore multiple solution approaches:
@@ -90,6 +93,7 @@ Compare branches and recommend the best path forward with justification.
 ## Development Workflow Patterns
 
 ### Story-Driven Development Template
+
 Based on successful patterns from production systems:
 
 ```
@@ -147,6 +151,7 @@ Only proceed with refactoring after confirming the approach is safe.
 ## Agentic Workflow Patterns
 
 ### System Prompt Reminders
+
 For multi-turn, autonomous problem-solving sessions:
 
 ```
@@ -165,6 +170,7 @@ Current task: [specific objective]
 ```
 
 ### ReAct (Reason + Act) Pattern
+
 For problems requiring research and action:
 
 ```
@@ -181,6 +187,7 @@ Repeat this cycle until the problem is solved. Always explain your reasoning bef
 ## Context Management Patterns
 
 ### Long Context Organization
+
 For sessions with extensive documentation:
 
 ```
@@ -201,6 +208,7 @@ Use XML tags for clear section separation:
 ```
 
 ### Context Relevance Filtering
+
 When working with large codebases:
 
 ```
@@ -217,6 +225,7 @@ Focus only on high-relevance context to avoid information overload.
 ## Task-Specific Patterns
 
 ### Architecture Decision Template
+
 ```
 # Architecture Decision Record
 
@@ -233,6 +242,7 @@ Focus only on high-relevance context to avoid information overload.
 ```
 
 ### Bug Investigation Pattern
+
 ```
 # Bug Investigation Process
 
@@ -246,6 +256,7 @@ Work through each step systematically before proposing a fix.
 ```
 
 ### Feature Planning Template
+
 ```
 # Feature Development Plan
 
@@ -297,6 +308,7 @@ Break down into small, testable increments that build on each other.
 ```
 
 ### Recovery Strategies
+
 When things go wrong:
 
 1. **Stop and Assess:** Don't compound problems by rushing
@@ -308,26 +320,32 @@ When things go wrong:
 ## Collaboration Preferences
 
 ### Session Management
+
 **Start of Session Checklist:**
+
 - [ ] Review project context document
 - [ ] Check current status/milestone  
 - [ ] Understand immediate objectives
 - [ ] Confirm any constraints or preferences
 
 **End of Session Checklist:**
+
 - [ ] Document key decisions made
 - [ ] Update progress tracking
 - [ ] Note any lessons learned
 - [ ] Prepare context for next session
 
 ### Communication Style
+
 **Preferred Interaction Patterns:**
+
 - Ask clarifying questions early rather than making assumptions
 - Provide rationale for technical decisions
 - Break complex changes into reviewable chunks
 - Use consistent terminology and naming conventions
 
 **Progress Updates:**
+
 - Show incremental progress rather than working in isolation
 - Explain trade-offs when multiple solutions exist
 - Highlight potential risks or concerns proactively
