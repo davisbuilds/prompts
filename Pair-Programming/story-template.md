@@ -5,12 +5,12 @@
 **Title:** [Brief, descriptive title]  
 **Priority:** [High/Medium/Low]  
 **Estimated Effort:** [15-30 minutes/30-60 minutes/1-2 hours]  
-**Status:** ⏳ Pending
+**Status:** [To Do, In Progress, Testing, Done, Blocked, Needs Revision]
 </story_metadata>
 
 ---
 
-## User Story
+## User Story / Description
 
 <user_story>
 **As a** [user type/role]  
@@ -154,9 +154,9 @@
 
 ## Status Legend
 
-- ⏳ **Pending** - Not started
-- 🔄 **In Progress** - Currently being worked on  
-- 🧪 **Testing** - Implementation complete, awaiting verification
-- ✅ **Completed** - Implemented and verified
-- ❌ **Blocked** - Cannot proceed due to dependencies
-- 🔁 **Needs Revision** - Issues found during verification
+- **To Do** - Not started
+- **In Progress** - Currently being worked on  
+- **Testing** - Implementation complete, awaiting verification
+- **Done** - Implemented and verified
+- **Blocked** - Cannot proceed due to dependencies
+- **Needs Revision** - Issues found during verification
